@@ -1,0 +1,92 @@
+body{
+    background-color: white;
+}
+.img-icon-skills{
+    width: 50px;
+    height:50px;
+    margin: 20px;
+}
+.btn-hldr .main-btn{
+    color: whitesmoke;
+    background:tomato;
+    text-transform: capitalize;
+}
+.btn-hldr .main-btn:hover{
+    
+    background:red;
+    
+}
+
+.masthead-wrap{
+    background-color:  rgb(12, 88, 122);
+    background-image: url(assets/space.jpg);
+}
+#home-top{
+    background-color: white;
+}
+section #top{
+    background-color: black;
+}
+
+#head-slider h1.header-teddy{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    font-size: 8vh;
+    color: white;
+}
+#head-slider p.header-desc{
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+.nav-list  li a{
+    color: black;
+    font-family: 'Inconsolata', monospace;
+}
+
+.colorify{
+    font-family: 'Leckerli One', cursive;
+    color: rgb(12, 88, 122);
+}
+
+.textify{
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+footer{
+    background-color:  rgb(12, 88, 122);
+    
+}
+footer .footer-list a{
+    color: white;
+    text-align: center;
+}
+footer p, footer p a{
+    color: white;
+    text-align: center;
+}
+
+.mail{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(12, 88, 122);
+}
+
+
+#earth-holder{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+}
+
+@media only screen and (max-width: 1640px) {
+    #earth-holder{
+        top:40%;
+        left:60%;
+        opacity: 0.3;
+    }
+    
+  }
