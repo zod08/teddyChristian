@@ -1,6 +1,7 @@
 body{
     background-color: white;
     z-index: 4;
+    font-weight: bolder;
 }
 .img-icon-skills{
     width: 50px;
@@ -79,21 +80,21 @@ footer p, footer p a{
 
 #earth-holder{
     position: absolute;
-    top: -10%;
+    top: -25%;
     left: 65%;
-    transition: display 2s;
+    
 }
 
-@media only screen and (max-width: 1630px) {
+@media only screen and (max-width: 960px) {
+    
     #earth-holder{
-        
-        visibility: hidden;
-        
+       position: fixed;
+       opacity:0.3;
+       top: 50%;
+       width: 400px;
+       left: 30%;
     }
     
-  }
-
-#hello article figure img{
-   
 
 }
+
